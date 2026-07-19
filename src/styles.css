@@ -34,14 +34,6 @@ body {
   white-space: nowrap;
 }
 
-.hero-label {
-  margin-top: 24px;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: 3px;
-  color: var(--color-muted);
-}
-
 .services {
   list-style: none;
   padding: 64px 160px;

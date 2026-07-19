@@ -9,5 +9,7 @@ it("全サービスを行リンクとして表示する", () => {
     expect(link).toHaveAttribute("href", s.url);
     expect(link).toHaveTextContent(s.description);
     expect(link).toHaveTextContent(s.index);
+    expect(link).toHaveAttribute("target", "_blank");
+    expect(link).toHaveAttribute("rel", "noopener noreferrer");
   }
 });
