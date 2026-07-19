@@ -1,0 +1,134 @@
+:root {
+  --color-bg: #ffffff;
+  --color-ink: #1a1a1a;
+  --color-muted: #666666;
+  --font-display: "Geist", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+  --font-jp: "Noto Sans JP", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-jp);
+  overflow-x: hidden;
+}
+
+.hero {
+  padding: 72px 0 16px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: min(23.5vw, 340px);
+  letter-spacing: -0.05em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.hero-label {
+  margin-top: 24px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: var(--color-muted);
+}
+
+.services {
+  list-style: none;
+  padding: 64px 160px;
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding: 36px 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-row:hover .service-name {
+  text-decoration: underline;
+}
+
+.service-index {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
+.service-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: -0.02em;
+}
+
+.service-meta {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: right;
+}
+
+.service-desc {
+  font-size: 14px;
+}
+
+.service-url {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 56px;
+}
+
+.footer a,
+.footer span {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+@media (max-width: 720px) {
+  .services {
+    padding: 40px 24px;
+  }
+
+  .service-row {
+    flex-wrap: wrap;
+    gap: 12px 16px;
+    padding: 28px 0;
+  }
+
+  .service-name {
+    font-size: 32px;
+  }
+
+  .service-meta {
+    margin-left: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .footer {
+    padding: 32px 24px;
+  }
+}
