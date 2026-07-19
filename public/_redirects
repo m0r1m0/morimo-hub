@@ -1,0 +1,3 @@
+/posts/*  https://blog.morimo.dev/posts/:splat  301
+/rss.xml  https://blog.morimo.dev/rss.xml  301
+/tools  https://blog.morimo.dev/tools  301
