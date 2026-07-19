@@ -7,5 +7,5 @@ it("GitHub リンクとコピーライトを表示する", () => {
     "href",
     "https://github.com/m0r1m0",
   );
-  expect(screen.getByText(/© 2026 morimo/)).toBeInTheDocument();
+  expect(screen.getByText(/© morimo/)).toBeInTheDocument();
 });
