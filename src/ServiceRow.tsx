@@ -1,20 +1,23 @@
-import type { Service } from "./services";
+import { splitServiceName, type Service } from "./services";
 
 export function ServiceRow({ service }: { service: Service }) {
+  const { prefix, suffix } = splitServiceName(service.name);
+
   return (
-    <li>
+    <li className="service-cell">
       <a
-        className="service-row"
+        className="service-link"
         href={service.url}
         target="_blank"
         rel="noopener noreferrer"
       >
         <span className="service-index">{service.index}</span>
-        <span className="service-name">{service.name}</span>
-        <span className="service-meta">
-          <span className="service-desc">{service.description}</span>
-          <span className="service-url">{new URL(service.url).host} ↗</span>
+        <span className="service-name">
+          <span style={{ color: service.accent }}>{prefix}</span>
+          {suffix && <span className="service-name-rest">{suffix}</span>}
         </span>
+        <span className="service-desc">{service.description}</span>
+        <span className="service-url">{new URL(service.url).host} ↗</span>
       </a>
     </li>
   );
