@@ -1,0 +1,1068 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "yXcZi",
+      "x": 0,
+      "y": 0,
+      "name": "Design A - Minimal Typographic",
+      "clip": true,
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "AIrUK",
+          "name": "Hero",
+          "width": "fill_container",
+          "padding": [
+            72,
+            0,
+            16,
+            0
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Qo6OM",
+              "name": "Monumental",
+              "fill": "#1A1A1A",
+              "content": "MORIMO",
+              "fontFamily": "Geist",
+              "fontSize": 340,
+              "fontWeight": "800",
+              "letterSpacing": -16
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZAUgk",
+          "name": "Hero Sub",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            0,
+            48,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "csR6F",
+              "name": "Label",
+              "fill": "#666666",
+              "content": "PERSONAL TOOLS & SERVICES",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S5UeP",
+          "name": "Services",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            64,
+            160
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Iow0S",
+              "name": "Row castorimo",
+              "width": "fill_container",
+              "gap": 48,
+              "padding": [
+                36,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VGkw8",
+                  "name": "Idx",
+                  "fill": "#666666",
+                  "content": "01",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "kRqXK",
+                  "name": "Name",
+                  "fill": "#1A1A1A",
+                  "content": "castorimo",
+                  "fontFamily": "Geist",
+                  "fontSize": 44,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "WRpkh",
+                  "name": "Spacer",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "M9p88",
+                  "name": "Meta",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EyFJC",
+                      "name": "Desc",
+                      "fill": "#1A1A1A",
+                      "content": "画面共有をタブ切り替えで済ませる共有ツール",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CqVfm",
+                      "name": "Url",
+                      "fill": "#666666",
+                      "content": "castorimo.morimo.dev ↗",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "M2PgXc",
+              "name": "Row pomorimo",
+              "width": "fill_container",
+              "gap": 48,
+              "padding": [
+                36,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XoRQG",
+                  "name": "Idx",
+                  "fill": "#666666",
+                  "content": "02",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RvtV3",
+                  "name": "Name",
+                  "fill": "#1A1A1A",
+                  "content": "pomorimo",
+                  "fontFamily": "Geist",
+                  "fontSize": 44,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "fMYE9",
+                  "name": "Spacer",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "LzB3E",
+                  "name": "Meta",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nHfM3",
+                      "name": "Desc",
+                      "fill": "#1A1A1A",
+                      "content": "ポモドーロタイマー",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Mi8Ij",
+                      "name": "Url",
+                      "fill": "#666666",
+                      "content": "pomorimo.morimo.dev ↗",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ibc3H",
+              "name": "Row jongrimo",
+              "width": "fill_container",
+              "gap": 48,
+              "padding": [
+                36,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lIbIi",
+                  "name": "Idx",
+                  "fill": "#666666",
+                  "content": "03",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "N3pfM",
+                  "name": "Name",
+                  "fill": "#1A1A1A",
+                  "content": "jongrimo",
+                  "fontFamily": "Geist",
+                  "fontSize": 44,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "hkbjT",
+                  "name": "Spacer",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "Oh6XG",
+                  "name": "Meta",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XyceV",
+                      "name": "Desc",
+                      "fill": "#1A1A1A",
+                      "content": "麻雀の待ち牌判定ツール",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aVS3N",
+                      "name": "Url",
+                      "fill": "#666666",
+                      "content": "jongrimo.morimo.dev ↗",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L2hKIn",
+              "name": "Row todorimo",
+              "width": "fill_container",
+              "gap": 48,
+              "padding": [
+                36,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M4IsV",
+                  "name": "Idx",
+                  "fill": "#666666",
+                  "content": "04",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "H6P74Y",
+                  "name": "Name",
+                  "fill": "#1A1A1A",
+                  "content": "todorimo",
+                  "fontFamily": "Geist",
+                  "fontSize": 44,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "Alw3D",
+                  "name": "Spacer",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "j2vP5",
+                  "name": "Meta",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yaiKS",
+                      "name": "Desc",
+                      "fill": "#1A1A1A",
+                      "content": "タスク管理サービス",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pVZwo",
+                      "name": "Url",
+                      "fill": "#666666",
+                      "content": "todorimo.morimo.dev ↗",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GPLVi",
+              "name": "Row blog",
+              "width": "fill_container",
+              "gap": 48,
+              "padding": [
+                36,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L05SN",
+                  "name": "Idx",
+                  "fill": "#666666",
+                  "content": "05",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tgPLi",
+                  "name": "Name",
+                  "fill": "#1A1A1A",
+                  "content": "blog",
+                  "fontFamily": "Geist",
+                  "fontSize": 44,
+                  "fontWeight": "700",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "AYyYd",
+                  "name": "Spacer",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "IwF4i",
+                  "name": "Meta",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "arhAq",
+                      "name": "Desc",
+                      "fill": "#1A1A1A",
+                      "content": "技術ブログ",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MrEno",
+                      "name": "Url",
+                      "fill": "#666666",
+                      "content": "blog.morimo.dev ↗",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S5ChD8",
+          "name": "Footer",
+          "width": "fill_container",
+          "padding": [
+            40,
+            56
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "HCPaD",
+              "name": "Sig",
+              "fill": "#666666",
+              "content": "個人開発者 morimo — つくったものを置いておく場所",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "NpPpy",
+              "name": "Copyright",
+              "fill": "#666666",
+              "content": "© 2026 morimo",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pUw3Z",
+      "x": 1560,
+      "y": 0,
+      "name": "Design B - Playful Pop",
+      "clip": true,
+      "width": 1440,
+      "fill": "#FAF7F2",
+      "layout": "vertical",
+      "gap": 56,
+      "padding": [
+        28,
+        0,
+        72,
+        0
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "a3ZNr",
+          "name": "Nav Pill",
+          "fill": "#FFFFFF",
+          "cornerRadius": 9999,
+          "stroke": "#E0DCD4",
+          "strokeWidth": 1,
+          "gap": 36,
+          "padding": [
+            12,
+            28
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "subrz",
+              "name": "Brand",
+              "fill": "#1A1A1A",
+              "content": "🌱 morimo.dev",
+              "fontFamily": "Zen Maru Gothic",
+              "fontSize": 15,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "ezOmp",
+              "name": "Link つくったもの",
+              "fill": "#9CA3AF",
+              "content": "つくったもの",
+              "fontFamily": "Zen Maru Gothic",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "r1pfZ",
+              "name": "Link ブログ",
+              "fill": "#9CA3AF",
+              "content": "ブログ",
+              "fontFamily": "Zen Maru Gothic",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "zwK7N",
+              "name": "Link GitHub",
+              "fill": "#9CA3AF",
+              "content": "GitHub",
+              "fontFamily": "Zen Maru Gothic",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AKRt0",
+          "name": "Hero",
+          "width": 760,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            0,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "l9oaON",
+              "name": "Badge",
+              "fill": "#EFF5E3",
+              "cornerRadius": 9999,
+              "padding": [
+                7,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tlBBg",
+                  "name": "Badge Text",
+                  "fill": "#4B5563",
+                  "content": "🛠️ 個人開発プロダクトのハブ",
+                  "fontFamily": "Zen Maru Gothic",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "P1k87",
+              "name": "Heading",
+              "gap": 6,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PnFWl",
+                  "name": "H1a",
+                  "fill": "#1A1A1A",
+                  "content": "つくったもの、",
+                  "fontFamily": "Zen Maru Gothic",
+                  "fontSize": 52,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "L0GukR",
+                  "name": "H1b",
+                  "fill": "#3E9E3E",
+                  "content": "ぜんぶ",
+                  "fontFamily": "Yomogi",
+                  "fontSize": 58,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "s7zbL",
+                  "name": "H1c",
+                  "fill": "#1A1A1A",
+                  "content": "ここに。",
+                  "fontFamily": "Zen Maru Gothic",
+                  "fontSize": 52,
+                  "fontWeight": "900"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "C8EGgr",
+              "name": "Sub",
+              "fill": "#4B5563",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "morimo シリーズは、日常の小さな不便を解決するためにつくっている自作ツールたち。気になるものからのぞいてみてください。",
+              "lineHeight": 1.8,
+              "textAlign": "center",
+              "fontFamily": "Zen Maru Gothic",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Gkkue",
+              "name": "CTA",
+              "fill": "#72D350",
+              "cornerRadius": 9999,
+              "padding": [
+                14,
+                30
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aEnKV",
+                  "name": "CTA Text",
+                  "fill": "#1A1A1A",
+                  "content": "GitHub を見る ↗",
+                  "fontFamily": "Zen Maru Gothic",
+                  "fontSize": 15,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "K9of42",
+          "name": "Cards",
+          "width": 1020,
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "jjUTH",
+              "name": "Card Row",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "E7eRa",
+                  "name": "Card castorimo",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cObxR",
+                      "name": "Emoji",
+                      "fill": "#1A1A1A",
+                      "content": "🎬",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 26,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CptQS",
+                      "name": "Name",
+                      "fill": "#1A1A1A",
+                      "content": "castorimo",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CrBbO",
+                      "name": "Desc",
+                      "fill": "#4B5563",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "（一言説明・仮）",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C0mzHn",
+                      "name": "Url",
+                      "fill": "#9CA3AF",
+                      "content": "castorimo.morimo.dev →",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DrUEx",
+                  "name": "Card pomorimo",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eGjld",
+                      "name": "Emoji",
+                      "fill": "#1A1A1A",
+                      "content": "🍅",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 26,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l4zsTy",
+                      "name": "Name",
+                      "fill": "#1A1A1A",
+                      "content": "pomorimo",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uXPF7",
+                      "name": "Desc",
+                      "fill": "#4B5563",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ポモドーロタイマー（仮）",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VWsd4",
+                      "name": "Url",
+                      "fill": "#9CA3AF",
+                      "content": "pomorimo.morimo.dev →",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z3J9Sm",
+                  "name": "Card jongrimo",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qtUOi",
+                      "name": "Emoji",
+                      "fill": "#1A1A1A",
+                      "content": "🀄",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 26,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pgUAA",
+                      "name": "Name",
+                      "fill": "#1A1A1A",
+                      "content": "jongrimo",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cUqT9",
+                      "name": "Desc",
+                      "fill": "#4B5563",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "麻雀の待ち牌判定ツール",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "srrzR",
+                      "name": "Url",
+                      "fill": "#9CA3AF",
+                      "content": "jongrimo.morimo.dev →",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "A4BGt",
+              "name": "Card Row",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "njtsk",
+                  "name": "Card todorimo",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K8jKY",
+                      "name": "Emoji",
+                      "fill": "#1A1A1A",
+                      "content": "✅",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 26,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jLPFA",
+                      "name": "Name",
+                      "fill": "#1A1A1A",
+                      "content": "todorimo",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ERtNl",
+                      "name": "Desc",
+                      "fill": "#4B5563",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "タスク管理サービス",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oz6ry",
+                      "name": "Url",
+                      "fill": "#9CA3AF",
+                      "content": "todorimo.morimo.dev →",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U8cic",
+                  "name": "Card blog",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 2
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y0oV20",
+                      "name": "Emoji",
+                      "fill": "#1A1A1A",
+                      "content": "✍️",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 26,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fwDq4",
+                      "name": "Name",
+                      "fill": "#1A1A1A",
+                      "content": "blog",
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Xb84w",
+                      "name": "Desc",
+                      "fill": "#4B5563",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "技術ブログ",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Zen Maru Gothic",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k11hf",
+                      "name": "Url",
+                      "fill": "#9CA3AF",
+                      "content": "blog.morimo.dev →",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AU9NP",
+          "name": "Footer",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xG0Rq",
+              "name": "Prof",
+              "fill": "#4B5563",
+              "content": "個人開発者 morimo ｜ GitHub ・ X ・ Blog",
+              "fontFamily": "Zen Maru Gothic",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "VqyXG",
+              "name": "Copy",
+              "fill": "#9CA3AF",
+              "content": "© 2026 morimo",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "7a5cc35c-4112-4b48-9121-4b35e930f8e8"
+}
