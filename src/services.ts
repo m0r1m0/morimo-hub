@@ -38,6 +38,13 @@ export const services: Service[] = [
   },
   {
     index: "05",
+    name: "kiritorimo",
+    description: "音声からクリップを切り出すツール",
+    url: "https://kiritorimo.morimo.dev",
+    accent: "#2F8F83",
+  },
+  {
+    index: "06",
     name: "blog",
     description: "技術ブログ",
     url: "https://blog.morimo.dev",

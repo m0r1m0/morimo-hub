@@ -1,11 +1,12 @@
 import { services } from "./services";
 
-it("5 件のサービスをスペックの順序で持つ", () => {
+it("6 件のサービスをスペックの順序で持つ", () => {
   expect(services.map((s) => s.name)).toEqual([
     "castorimo",
     "pomorimo",
     "jongrimo",
     "todorimo",
+    "kiritorimo",
     "blog",
   ]);
 });
