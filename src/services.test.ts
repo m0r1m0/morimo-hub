@@ -1,4 +1,4 @@
-import { services } from "./services";
+import { services, splitServiceName } from "./services";
 
 it("6 件のサービスをスペックの順序で持つ", () => {
   expect(services.map((s) => s.name)).toEqual([
@@ -17,4 +17,10 @@ it("すべて https の URL と連番 index を持つ", () => {
     expect(s.index).toBe(String(i + 1).padStart(2, "0"));
     expect(s.description.length).toBeGreaterThan(0);
   });
+});
+
+it("accentPrefix があればそこで分割する", () => {
+  expect(splitServiceName("kiritorimo", "kiritori")).toEqual({ prefix: "kiritori", suffix: "mo" });
+  expect(splitServiceName("pomorimo")).toEqual({ prefix: "pomo", suffix: "rimo" });
+  expect(splitServiceName("blog")).toEqual({ prefix: "blog", suffix: "" });
 });

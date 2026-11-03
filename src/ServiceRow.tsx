@@ -1,7 +1,7 @@
 import { splitServiceName, type Service } from "./services";
 
 export function ServiceRow({ service }: { service: Service }) {
-  const { prefix, suffix } = splitServiceName(service.name);
+  const { prefix, suffix } = splitServiceName(service.name, service.accentPrefix);
 
   return (
     <li className="service-cell">

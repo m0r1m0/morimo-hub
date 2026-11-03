@@ -5,6 +5,8 @@ export interface Service {
   url: string;
   /** サービス名アクセント色（固有部分に着色） */
   accent: string;
+  /** 色を付ける部分を明示する場合に指定（省略時は "rimo" の手前まで） */
+  accentPrefix?: string;
 }
 
 export const services: Service[] = [
@@ -42,6 +44,7 @@ export const services: Service[] = [
     description: "音声からクリップを切り出すツール",
     url: "https://kiritorimo.morimo.dev",
     accent: "#2F8F83",
+    accentPrefix: "kiritori",
   },
   {
     index: "06",
@@ -56,8 +59,15 @@ export const services: Service[] = [
  * サービス名を「固有部分」と共通サフィックス "rimo" に分割する。
  * 案A（固有部分にアクセント色）のための分割。
  * "rimo" を持たない名前（blog 等）は全体を固有部分として返す。
+ * accentPrefix を渡した場合（kiritorimo → "kiritori" 等）はそこで分割する。
  */
-export function splitServiceName(name: string): { prefix: string; suffix: string } {
+export function splitServiceName(
+  name: string,
+  accentPrefix?: string,
+): { prefix: string; suffix: string } {
+  if (accentPrefix && name.startsWith(accentPrefix)) {
+    return { prefix: accentPrefix, suffix: name.slice(accentPrefix.length) };
+  }
   if (name.endsWith("rimo") && name.length > "rimo".length) {
     return { prefix: name.slice(0, -"rimo".length), suffix: "rimo" };
   }
